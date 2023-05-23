@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <title>Job Board</title>
+
+  </head>
+  <body>
+
+    <header>
+      
+      <nav>
+        <div class="logo">
+          <h1>Career Spotlight</h1>
+        </div>
+        <div class="navlink">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="advice.html">Application Advice</a></li>
+            <li><a href="advice.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line3"></div>
+          <div class="line2"></div>
+        </div>
+      </nav>
+      
+
+    </header>
+    <div class="hero" data-aos="fade-up">
+      <div class="container1">
+        <h2>Find Your Dream Internship</h2>
+        <p>Explore software development and web development internships and kickstart your career.</p>
+      </div>
+    </div>
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Search job listings...">
+          <button id="searchButton" class="btn btn-primary">Search</button>
+        </div>
+        <div class="filters">
+          <h4>Filters</h4>
+          <label for="postedDate">Posted Date:</label>
+          <select id="postedDate">
+            <option value="">Any</option>
+            <option value="1">Last 24 hours</option>
+            <option value="7">Last 7 days</option>
+            <option value="30">Last 30 days</option>
+          </select>
+          <label for="location">Location:</label>
+          <input type="text" id="location" placeholder="Enter location">
+          <label for="experienceLevel">Experience Level:</label>
+          <select id="experienceLevel">
+            <option value="">Any</option>
+            <option value="entry">Entry Level</option>
+            <option value="intermediate">Intermediate Level</option>
+            <option value="senior">Senior Level</option>
+          </select>
+          <button id="applyFilters" class="btn btn-primary">Apply Filters</button>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <main>
+          <h1>Software Development and Web Development Internships</h1>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="job-listings" data-aos="zoom-in">
+                <!-- Job listings will be dynamically populated here -->
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="job-listings">
+                <!-- Job listings will be dynamically populated here -->
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+      
+    <div id="app"></div>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Job Board. All rights reserved.</p>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
