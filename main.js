@@ -12,7 +12,7 @@ var jobListings = [
     location: 'City, Country',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
     postedDate: '2023-05-20',
-    experienceLevel: 'entry'
+    experienceLevel: 'intermediate'
   },
   {
     title: 'Web Development Intern',
@@ -28,7 +28,7 @@ var jobListings = [
     location: 'City, Country',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
     postedDate: '2023-05-20',
-    experienceLevel: 'entry'
+    experienceLevel: 'intermediate'
   },
   {
     title: 'Web Development Intern',
@@ -76,7 +76,79 @@ var jobListings = [
     location: 'City, Country',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
     postedDate: '2023-05-13',
-    experienceLevel: 'entry'
+    experienceLevel: 'intermediate'
+  },
+  {
+    title: 'Software Developer Intern',
+    company: 'ABC Corporation',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-20',
+    experienceLevel: 'intermediate'
+  },
+  {
+    title: 'Web Development Intern',
+    company: 'XYZ Solutions',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-18',
+    experienceLevel: 'intermediate'
+  },
+  {
+    title: 'Software Developer Intern',
+    company: 'ABC Corporation',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-20',
+    experienceLevel: 'intermediate'
+  },
+  {
+    title: 'Web Development Intern',
+    company: 'XYZ Solutions',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-18',
+    experienceLevel: 'senior'
+  },
+  {
+    title: 'Frontend Developer Intern',
+    company: '123 Web Development',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-17',
+    experienceLevel: 'senior'
+  },
+  {
+    title: 'Backend Developer Intern',
+    company: 'Tech Solutions',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-16',
+    experienceLevel: 'senior'
+  },
+  {
+    title: 'Full Stack Developer Intern',
+    company: 'Innovative Solutions',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-15',
+    experienceLevel: 'senior'
+  },
+  {
+    title: 'UI/UX Design Intern',
+    company: 'Creative Designs',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-14',
+    experienceLevel: 'senior'
+  },
+  {
+    title: 'Graphic Design Intern',
+    company: 'Design Studio',
+    location: 'City, Country',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum faucibus ipsum, a gravida mauris eleifend et. Nullam vehicula velit vitae semper vestibulum.',
+    postedDate: '2023-05-13',
+    experienceLevel: 'senior'
   }
 ];
 
